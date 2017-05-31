@@ -1,0 +1,15 @@
+body {
+  background-color: #eee;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+#placeholder.invisible {
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+#placeholder.visible {
+  opacity: 1;
+}
